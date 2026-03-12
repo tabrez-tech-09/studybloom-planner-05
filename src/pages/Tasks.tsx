@@ -152,7 +152,7 @@ const Tasks = () => {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, height: 0 }}
-                    transition={{ duration: 0.25, ease: [0.32, 0.72, 0, 1] }}
+                    transition={{ duration: 0.25, ease: [0.32, 0.72, 0, 1] as const }}
                     className="flex items-center gap-3 px-6 py-3 border-b last:border-b-0 hover:bg-secondary/50 transition-colors duration-150"
                   >
                     <Checkbox
