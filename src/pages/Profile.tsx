@@ -42,7 +42,7 @@ const Profile = () => {
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.25, ease: [0.32, 0.72, 0, 1] }}
+        transition={{ duration: 0.25, ease: [0.32, 0.72, 0, 1] as const }}
         className="space-y-6 max-w-lg"
       >
         <h1 className="text-3xl font-semibold tracking-tight">Profile</h1>
