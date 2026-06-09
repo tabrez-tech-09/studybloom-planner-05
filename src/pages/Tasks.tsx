@@ -109,7 +109,7 @@ const Tasks = () => {
                   <Input placeholder="Review Chapter 3 notes" value={newTitle} onChange={(e) => setNewTitle(e.target.value)} />
                 </div>
                 <div className="sm:col-span-1">
-                  <Label className="text-xs text-muted-foreground">Due Date</Label>
+                  <Label className="text-xs text-muted-foreground">Due Date Task</Label>
                   <Input type="date" value={newDate} onChange={(e) => setNewDate(e.target.value)} />
                 </div>
                 <div className="sm:col-span-1 flex items-end">
