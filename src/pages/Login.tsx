@@ -1,4 +1,4 @@
-import { useState } from "react";
+toimport { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/hooks/useAuth";
 import { Button } from "@/components/ui/button";
@@ -34,7 +34,7 @@ const Login = () => {
             Focus on what's next.
           </h1>
           <p className="mt-2 text-muted-foreground">
-            Your personal planner for exams and tasks. Log in to get started.
+            Your personal  planner app for exams and tasks. Log in to get started.
           </p>
         </div>
         <div className="rounded-xl bg-card p-6 shadow-card">
